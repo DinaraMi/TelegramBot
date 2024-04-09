@@ -1,0 +1,37 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "description": "telegram bot testing for node.js developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DinaraMi/TelegramBot.git"
+  },
+  "keywords": [
+    "\"Telegram\"",
+    "\"bot\"",
+    "\"Node.js\"",
+    "\"TypeScript\"",
+    "\"testing\"",
+    "\"MongoDB\""
+  ],
+  "author": "Mikhailova Dinara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DinaraMi/TelegramBot/issues"
+  },
+  "homepage": "https://github.com/DinaraMi/TelegramBot#readme",
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.3.0",
+    "node-telegram-bot-api": "^0.65.1",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.6"
+  }
+}
